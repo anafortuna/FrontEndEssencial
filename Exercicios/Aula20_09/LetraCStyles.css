@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0; 
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+ }
+ 
+ .topo {
+     background-color: green;
+     height: 10rem;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .corpo{
+    background-color: aqua;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .lateral{
+     background-color: blue;
+     height: 85vh;
+     width: 15%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .conteudo{
+     background-color: aqua;
+     width: 70%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .rodape {
+     background-color: green;
+     height: 4rem;
+     width: 100%; 
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+ }

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(246, 231, 226);
+}
+
+h1{
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}
+
+.ingredientes{
+    background-color:rgb(249, 163, 132);
+    border-radius: 8px;
+}
+.container-preparo{
+    background-color: rgb(147, 125, 117);
+    border-radius: 8px;
+}
+
+.link{
+    background-color: rgb(240, 85, 28);
+    border-radius: 8px;
+}
