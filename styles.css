@@ -121,8 +121,8 @@ a {
 }
 
 #sobre {
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .conteudo-sobre {
@@ -180,7 +180,8 @@ form {
     width: 90%;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     margin-bottom: 1rem;
     padding-left: 0.5rem;
     padding-top: 0.3rem;
@@ -210,7 +211,7 @@ button {
 
 button:hover {
     background: linear-gradient(45deg, aliceblue, rgb(0, 115, 128));
-  }
+}
 
 .rodape {
     background-color: rgb(0, 115, 128);
@@ -257,12 +258,13 @@ button:hover {
 }
 
 
-@media (max-width: 768px) {
-    
+@media (max-width: 1024px) {
+
     .topo {
         height: auto;
         text-align: center;
-        justify-content: center;
+        justify-content: space-around;
+        width: auto;
     }
 
     .topo-direita {
@@ -270,8 +272,8 @@ button:hover {
         margin: 0;
         padding: 0;
         justify-content: center;
-        font-size: 0.8rem;
-        gap: 3rem;
+        font-size: 1rem;
+        gap: 4rem;
 
     }
 
@@ -285,7 +287,7 @@ button:hover {
     }
 
     .topo-esquerda img {
-        width: 80px; /* Reduz a largura da imagem em telas menores */
+        width: 80px;
         margin: 0.5rem;
     }
 
@@ -296,7 +298,7 @@ button:hover {
     .t1 {
         text-align: center;
     }
-    
+
     .dicas-superior {
         display: flex;
         flex-direction: column;
@@ -304,14 +306,14 @@ button:hover {
         gap: 2rem;
         margin-bottom: 2rem;
     }
-    
+
     .dicas-inferior {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
-    
+
     .conteudo-sobre {
         display: flex;
         flex-direction: column;
@@ -345,12 +347,12 @@ button:hover {
     #sobre {
         padding-top: 2rem;
         padding-bottom: 0rem;
-     }
+    }
 
 }
 
-@media (max-width: 480px) {
-    /* Ajusta para telas pequenas (smartphones) */
+@media (max-width: 540px) {
+
     .topo {
         padding: 0.5rem;
         flex-direction: column;
@@ -359,7 +361,26 @@ button:hover {
     }
 
     .topo-esquerda img {
-        width: 60px; /* Ainda menor em telas muito pequenas */
+        width: 60px;
         margin: 0.5rem;
+    }
+
+    .topo-direita {
+        font-size: 0.8rem;
+        gap: 1rem;
+    }
+
+    .dica {
+        width: 20rem;
+    }
+
+    .dica img {
+        width: 20rem;
+        border-radius: 8px;
+    }
+
+    .dica p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
     }
 }
