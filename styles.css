@@ -189,6 +189,7 @@ input[type="email"] {
     border-radius: 4px;
     width: 100%;
     font-size: 1.1rem;
+    border-color: rgb(0, 115, 128);
 }
 
 input[type="checkbox"] {
