@@ -7,6 +7,7 @@
 📁 Trabalho Individual
 
 **Descrição:** Trabalho individual referente à disciplina de Frontend Essencial.
+A página pode ser visitada no endereço: https://anafortuna.github.io/FrontEndEssencial/
 
 # Tecnologias utilizadas
 
