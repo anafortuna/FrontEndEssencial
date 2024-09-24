@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.topo {
+    background-color: rgb(0, 115, 128);
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.topo-esquerda {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.topo-esquerda img {
+    width: 100px;
+    height: auto;
+    margin: 1rem;
+
+}
+
+.topo-direita {
+    width: 30%;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sites-topo, .sobre-topo, .newsletter-topo {
+    width: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: aliceblue;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 115, 128);
+}
+
+.t1 {
+    margin-top: 3rem;
+}
+
+.t2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.conteudo {
+    background-color: aliceblue;
+    padding: 2rem;
+    color: rgb(0, 115, 128);
+}
+
+.sites {
+    border-bottom: 0.15rem solid rgb(0, 115, 128);
+}
+
+#sites {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dicas-superior {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.dicas-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dica {
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 8px;
+    border: 0.15rem solid rgb(0, 115, 128);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 25rem;
+}
+
+.dica img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 8px;
+}
+
+.dica p {
+    margin: 1rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.sobre {
+    border-bottom: 0.15rem solid rgb(0, 115, 128);
+}
+
+#sobre {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.conteudo-sobre img {
+    width: 15rem;
+    border-radius: 50rem;
+    margin-right: 3rem;
+}
+
+.conteudo-sobre p {
+    font-size: 1.3rem;
+}
+
+.newsletter {
+    border-bottom: 0.15rem solid rgb(0, 115, 128);
+}
+
+#newsletter {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter h2 {
+    padding-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid rgb(0, 115, 128);
+    border-radius: 8px;
+    width: 60%;
+    padding: 2rem;
+
+}
+
+.formulario-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 2rem;
+    width: 90%;
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 15rem;
+    padding: 0.5rem;
+    background: linear-gradient(45deg, rgb(0, 115, 128), aliceblue);
+    transition: background 0.3s ease;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, aliceblue, rgb(0, 115, 128));
+  }
+
+.rodape {
+    background-color: rgb(0, 115, 128);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.rodape-esquerda {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rodape-esquerda h3 {
+    margin: 0.3rem;
+}
+
+.rodape-direita {
+    margin-top: 2rem;
+    width: 18%;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.facebook img {
+    width: 55px;
+    height: auto;
+}
+
+.instagram img {
+    width: 45px;
+    height: auto;
+}
+
+.linkedin img {
+    width: 50px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    
+    .topo {
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .topo-direita {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        font-size: 0.8rem;
+        gap: 5rem;
+
+    }
+
+    .topo-esquerda {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    .topo-esquerda img {
+        width: 80px; /* Reduz a largura da imagem em telas menores */
+        margin: 0.5rem;
+    }
+
+    .menu {
+        height: 20%;
+    }
+
+    .t1 {
+        text-align: center;
+    }
+    
+    .dicas-superior {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .dicas-inferior {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .conteudo-sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        line-height: 1.6;
+    }
+
+    .rodape {
+        background-color: rgb(0, 115, 128);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        color: aliceblue;
+    }
+
+    .rodape-direita {
+        margin: auto;
+        padding: auto;
+        width: 50%;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    #sobre {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+     }
+
+}
+
+@media (max-width: 480px) {
+    /* Ajusta para telas pequenas (smartphones) */
+    .topo {
+        padding: 0.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topo-esquerda img {
+        width: 60px; /* Ainda menor em telas muito pequenas */
+        margin: 0.5rem;
+    }
+}
