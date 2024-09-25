@@ -372,11 +372,13 @@ button:hover {
         padding-left: 0;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
+        font-size: 0.7rem;
     }
 
     .topo-direita {
         font-size: 0.8rem;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .dica {
