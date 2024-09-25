@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    background-color: #8BA4B0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+p {
+    margin: 2%;
+    font-size: 5rem;
+}
