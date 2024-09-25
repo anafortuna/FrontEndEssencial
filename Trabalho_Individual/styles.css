@@ -369,13 +369,13 @@ button:hover {
     }
 
     .menu h1 {
-       width: 80%;
-       font-size: 1.8rem;
-       display: flex;
-       justify-content: center;
-       text-align: center;
-       align-items: center;
-       margin: auto;
+        width: 80%;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
     }
 
     .topo-esquerda {
@@ -404,4 +404,19 @@ button:hover {
         margin: 0.8rem;
         font-size: 0.8rem;
     }
+
+    #newsletter h2 {
+        width: 80%;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .rodape-esquerda {
+        line-height: 1.6rem;
+    }
+
 }
