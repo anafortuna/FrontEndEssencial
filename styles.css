@@ -373,11 +373,11 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 
     .topo-direita {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
         gap: 2rem;
     }
 
