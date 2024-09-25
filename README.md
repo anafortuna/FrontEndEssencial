@@ -14,3 +14,4 @@ A página pode ser visitada no endereço: https://anafortuna.github.io/FrontEndE
 
 * [Html](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
+* [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
