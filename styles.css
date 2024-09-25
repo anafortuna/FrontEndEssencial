@@ -116,7 +116,8 @@ a {
 .dica img {
     width: 25rem;
     height: 15rem;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     outline: 0.15rem solid rgb(0, 115, 128);
 }
 
