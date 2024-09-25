@@ -368,6 +368,16 @@ button:hover {
         align-items: center;
     }
 
+    .menu h1 {
+       width: 80%;
+       font-size: 1.8rem;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       margin: auto;
+    }
+
     .topo-esquerda {
         padding-left: 0;
         flex-direction: column;
